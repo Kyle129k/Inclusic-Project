@@ -1,5 +1,17 @@
 .Front {
     text-align: center;}
+   
     .Button {
         text-align: right}
-        
+.Search_Button{
+    text-align: center;
+}
+
+.image2{
+    text-align: right;
+}
+.Aim{
+   line-height: 2;
+    font-size: small;
+    font-weight: 100;
+}
