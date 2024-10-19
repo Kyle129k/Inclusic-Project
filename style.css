@@ -1,8 +1,11 @@
 .Front {
-    text-align: center;}
+    text-align: center;
+    padding: 130px;}
+    
    
     .Button {
-        text-align: right}
+        text-align: right;}
+
 .Search_Button{
     text-align: center;
 }
@@ -13,17 +16,19 @@
 .Aim{
     font-size: small;
     font-weight: 100;
+    font-family: monospace;
+
 }
 .Description{
     text-align: center;
-}
+    font-family: monospace;
 
+}
 nav{
-    background-color: aquamarine;
     height: 40px;
-    padding: 1px;
     margin-bottom: 20px;
     text-align: right;
+    margin-right: 80px;
 }
 
 nav ul{
@@ -38,4 +43,13 @@ nav ul li a{
     text-decoration: none;
     margin-right: 90px;
     color: black;
+    font-family: monospace;
+
+}
+.title{
+    color:rgb(87, 57, 42);
+    font-size: 28px;
+    margin-right: 400px;
+    margin-top: 20px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
 }
