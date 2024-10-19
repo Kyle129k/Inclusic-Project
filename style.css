@@ -18,6 +18,24 @@
     text-align: center;
 }
 
-.Interactions{
+nav{
+    background-color: aquamarine;
+    height: 40px;
+    padding: 1px;
+    margin-bottom: 20px;
     text-align: right;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 90px;
+    color: black;
 }
