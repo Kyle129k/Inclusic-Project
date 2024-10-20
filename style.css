@@ -10,9 +10,7 @@
     text-align: center;
 }
 
-.image2{
-    text-align: right;
-}
+
 .Aim{
     font-size: small;
     font-weight: 100;
@@ -46,10 +44,22 @@ nav ul li a{
     font-family: monospace;
 
 }
-.title{
+#title{
     color:rgb(87, 57, 42);
     font-size: 28px;
     margin-right: 400px;
     margin-top: 20px;
     text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
 }
+
+
+.imgs img {
+    display: inline-block;
+    width: 30%;  
+    margin-right: 20px; 
+
+}
+
+.imgs{
+    text-align: center;
+}    
