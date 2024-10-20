@@ -1,6 +1,10 @@
 .Front {
     text-align: center;
-    padding: 130px;}
+    padding: 130px;
+    margin-bottom: -5%;
+    margin-top: -50px;
+    font-size:300%
+}
     
    
     .Button {
@@ -11,17 +15,28 @@
 }
 
 
-.Aim{
-    font-size: small;
-    font-weight: 100;
-    font-family: monospace;
-
+.Aim-Container {
+    text-align: center; 
 }
-.Description{
-    text-align: center;
-    font-family: monospace;
 
+.Aim {
+    display: inline-block; 
+    font-size: 24px; 
+    font-weight:700; 
+    font-family: monospace;
+    margin-right: 20px; 
+    vertical-align: top;     
+    line-height: 6;}
+
+.Description {
+    display: inline-block;
+    max-width: 800px; 
+    line-height: 1.5; 
+    margin-top: 5%;
 }
+
+
+
 nav{
     height: 40px;
     margin-bottom: 20px;
@@ -44,22 +59,24 @@ nav ul li a{
     font-family: monospace;
 
 }
-#title{
-    color:rgb(87, 57, 42);
+#title {
+    float: left;
+    color: rgb(87, 57, 42);
     font-size: 28px;
-    margin-right: 400px;
-    margin-top: 20px;
     text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
+    margin-top: 30px;
 }
 
 
 .imgs img {
     display: inline-block;
-    width: 30%;  
+    width: 45%; 
+    height: auto; 
     margin-right: 20px; 
 
 }
 
 .imgs{
     text-align: center;
+    
 }    
