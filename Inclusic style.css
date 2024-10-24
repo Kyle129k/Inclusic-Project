@@ -1,0 +1,82 @@
+.Front {
+    text-align: center;
+    padding: 130px;
+    margin-bottom: -5%;
+    margin-top: -50px;
+    font-size:300%
+}
+    
+   
+    .Button {
+        text-align: right;}
+
+.Search_Button{
+    text-align: center;
+}
+
+
+.Aim-Container {
+    text-align: center; 
+}
+
+.Aim {
+    display: inline-block; 
+    font-size: 24px; 
+    font-weight:700; 
+    font-family: monospace;
+    margin-right: 20px; 
+    vertical-align: top;     
+    line-height: 6;}
+
+.Description {
+    display: inline-block;
+    max-width: 800px; 
+    line-height: 1.5; 
+    margin-top: 5%;
+}
+
+
+
+nav{
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 90px;
+    color: black;
+    font-family: monospace;
+
+}
+#title {
+    float: left;
+    color: rgb(87, 57, 42);
+    font-size: 28px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
+    margin-top: 30px;
+}
+
+
+.imgs img {
+    display: inline-block;
+    width: 45%; 
+    height: auto; 
+    margin-right: 20px; 
+
+}
+
+.imgs{
+    text-align: center;
+    
+}    
