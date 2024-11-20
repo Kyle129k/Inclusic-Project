@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; /* Font set to Times New Roman */
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Title on the left, nav links on the right */
+    align-items: center; /* Vertically center the nav items */
+    height: 60px; /* Increase nav height for better spacing */
+    padding: 0 20px; /* Padding for left and right spacing */
+    background-color: #fff; /* Optional, background color for navbar */
+}
+
+#title {
+    color: rgb(87, 57, 42);
+    font-size: 28px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
+}
+
+nav ul {
+    list-style: none; /* Removes bullets from list */
+    display: flex; /* Arrange items horizontally */
+    align-items: center; /* Vertically center the links */
+}
+
+nav ul li {
+    margin-left: 20px; /* Adds space between the links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+nav ul li button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Content Container */
+.content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    align-items: flex-start; /* Aligns both sections to the top */
+}
+
+/* 'Who We Are' Section */
+.who-we-are {
+    width: 70%; /* Make the text section larger */
+    margin-top: 40px;
+    text-align: left; /* Align text to the left */
+    padding-left: 0; /* Remove any padding */
+}
+
+.who-we-are h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.who-we-are p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.who-we-are .names {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.who-we-are img {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* Image Section */
+.image {
+    width: 40%; /* Keeps the image container at 30% of the content area */
+    margin-top: 40px;
+}
+
+.image img {
+    width: 100%; /* Makes the image fill its container */
+    max-width: 800px; /* Increase this value to make the image bigger */
+    border: 1px solid #ccc;
+}
