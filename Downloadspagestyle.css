@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 60px; 
+    padding: 0 20px; 
+    background-color: #fff;
+}
+#title {
+    color: rgb(87, 57, 42);
+    font-size: 28px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
+}
+nav ul {
+    list-style: none; 
+    display: flex; 
+    align-items: center; 
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 1rem;
+}
+nav ul li button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+/* Main Content */
+main {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.content{
+    margin: 100;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Content Container */
+.oliviarodrigo {
+    justify-content: space-between;
+    gap: 30px;
+    width: 400px;
+    height: 500px;
+    margin-right: 600px;
+}
+
+/* Downloads */
+.Downloads {
+    width: 70%; 
+    margin-top: 40px;
+    text-align: left; 
+    padding-left: 0; 
+}
+
+.Downloads h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.Downloads img {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+/* Image Section */
+.taylorswift {
+    width: 40%; 
+    margin-top: 40px;
+    margin-right: 600px;
+    justify-content: space-between;
+}
+.taylorswift img {
+    justify-content: right;
+    gap: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.plus-btn {
+    background-color:none;
+    color:black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-btn:hover {
+    background-color: #218838;
+}
