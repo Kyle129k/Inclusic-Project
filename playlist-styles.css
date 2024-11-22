@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#title {
+    font-family: 'Georgia', serif;
+    color: rgb(87, 57, 42);
+    font-size: 32px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+nav ul li button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #333;
+    transition: 0.3s;
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+.playlists {
+    flex: 2;
+}
+
+.playlists h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.playlist-item {
+    background-color: #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image-section img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#new-playlist-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+.plus-btn {
+    background-color:none;
+    color:black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-btn:hover {
+    background-color: #218838;
+}
