@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function loadDownloads() {
         const savedDownloads = JSON.parse(localStorage.getItem("downloads")) || [];
         savedDownloads.forEach(name => {
-            createDownloadBox(name);
+            createDownloadsBox(name);
         });
     }
 
