@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inclusic</title>
-  <link rel="stylesheet" href="Downloadspagestyle.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusic</title>
+    <link rel="stylesheet" href="playlist-styles.css">
+    <script src="Down.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div id="title">Inclusic</div>
-            <ul>
-                <li><a href="playlists.html">Playlists</a></li>
-                <li><a href="Downloads.html">Downloads</a></li>
-                <li><a href="AboutUs.html">Who we are</a></li>
-                <li><a href="#">My Profile</a></li>
-                <li><button style="background-color: black; color: white; border-radius: 5px; padding-right: 25px; padding-left: 25px; padding-top: 7px; padding-bottom: 7px;">PLAY</button></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <div id="title" href="Inclusic.html">Inclusic</div>
+        <ul>
+            <li><a href="playlist.html">Playlists</a></li>
+            <li><a href="Downloads.html">Downloads</a></li>
+            <li><a href="AboutUs.html">Who we are</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><button>PLAY</button></li>
+        </ul>
+    </nav>
 
-      <section class="oliviarodrigo">
-        <div class="Downloads">
-          <h2>Downloads</h2>
-          <img src="https://stitchedsound.com/wp-content/uploads/2021/05/olivia-e1621613728665.jpeg">
-        </div>
-        <div class="taylorswift">
-          <img src="https://i.pinimg.com/474x/17/37/90/1737903980c0ca76333b0b0c9d47888d.jpg">
-        </div>
-      </section>
+    <main>
+        <div class="content">
+            <div class="downloads">
+                <h2>Downloads</h2>
+                <div class="download-item">
+                    <span>Download 1</span>
+                    <button class="plus-btn" onclick="openFileExplorer()">+</button>
+                </div>
+                <p id="new-download-text" onclick="addPlaylist()">New Download</p>
+            </div>
 
-      <div class="content">
-        <div class="downloads">
-            <div class="download-item">
-                <span>Download Music</span>
-                <button class="plus-btn" onclick="openFileExplorer()">+</button>
+            <div class="image-section">
+                <img src="https://stitchedsound.com/wp-content/uploads/2021/05/olivia-e1621613728665.jpeg" alt="Olivia Rodrigo">
+                <img src="https://i.pinimg.com/474x/17/37/90/1737903980c0ca76333b0b0c9d47888d.jpg" alt="Taylor Swift">
+            </div>
+        </div>
     </main>
-  
 </body>
 </html>
-
