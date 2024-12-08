@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif; 
@@ -13,7 +12,6 @@ body {
     color: #333;
 }
 
-/* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between; 
@@ -52,7 +50,6 @@ nav ul li button {
     padding: 7px 25px;
 }
 
-/* Main Content */
 main {
     display: flex;
     justify-content: flex-start;
@@ -61,21 +58,19 @@ main {
     max-width: 1200px;
 }
 
-/* Content Container */
 .content {
     display: flex;
     justify-content: flex-start;
     gap: 30px;
     width: 100%;
-    align-items: flex-start; /* Aligns both sections to the top */
+    align-items: flex-start; 
 }
 
-/* 'Who We Are' Section */
 .who-we-are {
-    width: 70%; /* Make the text section larger */
+    width: 70%; 
     margin-top: 40px;
-    text-align: left; /* Align text to the left */
-    padding-left: 0; /* Remove any padding */
+    text-align: left; 
+    padding-left: 0; 
 }
 
 .who-we-are h2 {
@@ -101,14 +96,13 @@ main {
     margin-top: 10px;
 }
 
-/* Image Section */
 .image {
-    width: 40%; /* Keeps the image container at 30% of the content area */
+    width: 40%; 
     margin-top: 40px;
 }
 
 .image img {
-    width: 100%; /* Makes the image fill its container */
-    max-width: 800px; /* Increase this value to make the image bigger */
+    width: 100%;
+    max-width: 800px; 
     border: 1px solid #ccc;
 }
