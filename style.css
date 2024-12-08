@@ -60,7 +60,9 @@ nav ul li a{
 
 }
 #title {
-    float: left;
+    position: absolute;
+    left: 40px;
+    top: 0px;
     color: rgb(0, 0, 0);
     font-size: 28px;
     text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.372);
